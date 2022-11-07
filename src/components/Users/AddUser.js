@@ -25,9 +25,12 @@ setAge(e.target.value)
     setUsername('')
     setAge('')
   }
+  const ErrorHandler = () =>{
+    setError(false)
+  }
   return (
     <div>
-     {error && <Errormsg/> }
+     {error && <Errormsg onConfirm={ErrorHandler}/> }
     <form className="form" onSubmit={submitUserHandler}>
       <div>
         <label className="form-label" htmlFor="username">Username</label>
