@@ -1,5 +1,5 @@
 
-function Errormsg() {
+function Errormsg(props) {
 
     return (
         <div>
@@ -10,7 +10,7 @@ function Errormsg() {
                 <p>Input values acnnot be empty</p>
             </div>
             <div>
-                <button>Ok</button>
+                <button onClick={props.onConfirm}>Ok</button>
             </div>
         </div>
     )
