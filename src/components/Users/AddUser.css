@@ -1,0 +1,25 @@
+
+.form {
+    border-radius: 12px;
+    border: 1px solid black;
+    margin: auto;
+    align-items: center;
+width: 50%;
+display: flexbox;
+height: fit-content;
+
+    padding: 20px;
+    align-content: center;
+}
+
+.form-label {
+    font-weight: 2rem;
+    font-family: sans-serif;
+    color: blueviolet;
+    -ms-flex-align: center;
+}
+
+.form-input {
+    border-color: brown;
+    display: block;
+}
